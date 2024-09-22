@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css"> 
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1>Healthcare Platform</h1>
+
+    <form id="registerForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="medicalHistory">Medical History:</label>
+        <input type="text" id="medicalHistory" placeholder="Enter your medical history" required>
+
+        <!-- New File Input for PDF upload -->
+        <label for="medicalReport">Upload Medical Report (PDF):</label>
+        <input type="file" id="medicalReport" accept="application/pdf">
+
+        <label for="sugar">Sugar Level (mg/dL):</label>
+        <input type="number" id="sugar" placeholder="Enter your sugar level" required>
+
+        <label for="cholesterol">Cholesterol Level (mg/dL):</label>
+        <input type="number" id="cholesterol" placeholder="Enter your cholesterol level" required>
+
+        <label for="bloodPressure">Blood Pressure (mmHg):</label>
+        <input type="text" id="bloodPressure" placeholder="Enter your blood pressure (e.g., 120/80)" required>
+
+        <button type="submit">Register</button>
+
+        <div id="feedback" class="feedback-message"></div>
+    </form>
+
+    <footer>
+        <p>&copy; 2024 Healthcare Platform. All rights reserved.</p>
+    </footer>
+    
+    <script src="js/tapp.js"></script>
+    <script src="tapp.js"></script>
+</body>
+</html>

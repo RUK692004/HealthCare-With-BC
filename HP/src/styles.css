@@ -1,0 +1,92 @@
+/* Set the background color to green */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #28a745; /* Green background */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure the body takes the full viewport height */
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+}
+
+nav {
+    background-color: #09eff3;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: rgb(11, 137, 234);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: #0841dd;
+}
+
+form {
+    background: #00e439;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.feedback-message {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
